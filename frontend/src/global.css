@@ -1,0 +1,76 @@
+.todo-page-container {
+  width: 300px;
+  margin: auto;
+}
+
+.todo-page-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.item-container {
+  position: relative;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.item-center {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item-title {
+  margin-left: 10px;
+}
+
+.item-dropdown {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.add-todo-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-todo-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.add-todo-button {
+  min-width: 100px;
+}
+
+.add-subtask-input {
+  margin-right: 10px;
+  border: none;
+}
+
+.add-subtask-input:focus {
+  outline: none !important;
+}
+
+.add-subtask-button {
+  font-size: 10px;
+  min-width: 60px;
+}
+
+.margin-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin-horizontal {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}

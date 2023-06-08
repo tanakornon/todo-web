@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "cd frontend && npm install && cd ../backend && npm install",
+    "start": "concurrently \"cd backend && npm run start\" \"cd frontend && npm run start\"",
+    "test": "cd frontend && npm run test && cd ../backend && npm run test",
+    "clean": "rimraf frontend/node_modules backend/dist backend/node_modules backend/coverage"
+  },
+  "author": "Tanakorn Onlamoon",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "rimraf": "^5.0.1"
+  }
+}
